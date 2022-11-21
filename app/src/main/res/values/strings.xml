@@ -42,4 +42,6 @@
     <string name="game_result_finish">종료</string>
     <string name="gaming_hp">HP</string>
     <string name="gaming_ranking">순위</string>
+    <string name="notification_promise_name">약속 알림</string>
+    <string name="notification_promise_description">약속 일정에 대한 알림</string>
 </resources>
