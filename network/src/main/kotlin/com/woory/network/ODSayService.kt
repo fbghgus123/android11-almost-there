@@ -4,7 +4,7 @@ import okhttp3.ResponseBody
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface ODsayService {
+interface ODSayService {
 
     @GET("searchPubTransPathT")
     suspend fun getPublicTransitRoute(

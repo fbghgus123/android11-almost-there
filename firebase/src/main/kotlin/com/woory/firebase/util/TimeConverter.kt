@@ -23,4 +23,6 @@ object TimeConverter {
 
     fun OffsetDateTime.asTimeStamp(): Timestamp =
         Timestamp(toEpochSecond(), nano)
+
+    fun OffsetDateTime.asMillis(): Long = this.toInstant().toEpochMilli()
 }

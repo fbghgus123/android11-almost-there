@@ -11,7 +11,7 @@ import javax.inject.Inject
 
 class DefaultNetworkDataSource @Inject constructor(
     private val tMapService: TMapService,
-    private val oDSayService: ODsayService
+    private val oDSayService: ODSayService
 ) : NetworkDataSource {
     override suspend fun getAddressByPoint(geoPoint: GeoPointModel): Result<String> {
         return runCatching {
